@@ -33,7 +33,7 @@ export const settingChartData = (setChartData, prices1, prices2)=> {
             labels: prices1.map((item) => convertDate(item[0])),
             datasets: [
                 {
-                    label: "Trade",
+                    label: "Graph",
                     data: prices1.map((price) => price[1]),
                     borderColor: '#3a80e9',
                     backgroundColor: "rbba(58, 128, 233, 0.1)",
